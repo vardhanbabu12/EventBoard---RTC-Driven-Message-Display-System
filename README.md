@@ -49,5 +49,27 @@ In addition, the project provides a **secure Admin Mode**, allowing authorized u
    - Entered via external switch (interrupt).  
    - Access protected by keypad password.  
    - Allows time editing & message selection.  
-
 ---
+## 🎯 Applications  
+
+The EventBoard – RTC-Driven Message Display System can be applied in various real-world scenarios, including:  
+
+- **Educational Institutions**  
+  - Displaying class schedules, exam notifications, and reminders in classrooms and labs.  
+- **Corporate Offices**  
+  - Showing meeting reminders, daily announcements, and motivational messages in workspaces.  
+- **Hospitals & Clinics**  
+  - Displaying patient appointment times, health tips, and emergency alerts.  
+- **Railway/Bus Stations**  
+  - Announcing arrival and departure times, delay notices, and passenger information.  
+- **Libraries**  
+  - Reminders for events, return deadlines, and silence notifications.  
+- **Factories & Industries**  
+  - Worker shift schedules, safety instructions, and production updates.  
+- **Community Centers**  
+  - Event announcements, activity reminders, and public service messages.  
+- **Home Automation**  
+  - Personalized reminders, family schedules, and daily inspirational notes.  
+
+This makes the system versatile for **time-driven communication**, **alerts**, and **information broadcasting** in multiple domains.  
+
