@@ -16,8 +16,7 @@ In addition, the project provides a **secure Admin Mode**, allowing authorized u
 - LED status indication:  
   - 🟢 Green LED → Active message display  
   - 🔴 Red LED → Idle mode  
-- LM35 sensor for real-time temperature monitoring  
-- Buzzer support for alerts  
+- LM35 sensor for real-time temperature monitoring    
 
 ---
 
@@ -28,8 +27,7 @@ In addition, the project provides a **secure Admin Mode**, allowing authorized u
 - 16x2 LCD Display  
 - 4x4 Keypad  
 - Green & Red LEDs  
-- LM35 Temperature Sensor  
-- Buzzer  
+- LM35 Temperature Sensor   
 - Power Supply Circuitry  
 
 ### 💻 Software  
