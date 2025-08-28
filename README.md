@@ -1,4 +1,4 @@
-# 📟 EventBoard - RTC-Driven Message Display System  
+ # 📟 EventBoard - RTC-Driven Message Display System  
 
 ## 📖 Overview  
 The **EventBoard** is a real-time, microcontroller-based message display system designed using the **LPC2148 ARM7 microcontroller**. Its primary purpose is to automatically display predefined messages at specific times on a **16x2 LCD screen** with a scrolling effect. The system leverages the **built-in Real-Time Clock (RTC)** of the LPC2148 for accurate timekeeping.  
@@ -52,11 +52,11 @@ In addition, the project provides a **secure Admin Mode**, allowing authorized u
 ---
 ## 📂 Project File Structure & Descriptions
 
-    |-- Event_Board_Main.c  # Main program file – contains main() function, integrates LCD, keypad, RTC, ADC, and settings modules
+    |-- Event_Board_Main.c         # Main program file – contains main() function, integrates LCD, keypad, RTC, ADC, and settings modules
     |
-    |--lcd.c / lcd.h        # LCD driver – initialization, sending commands/data, displaying characters, strings, integers on the LCD  
+    |--lcd.c / lcd.h               # LCD driver – initialization, sending commands/data, displaying characters, strings, integers on the LCD  
     |
-    |--kpm.c / kpm.h        #Keypad driver – initialization, scanning columns/rows, detecting key press, reading numeric and password inputs  
+    |--kpm.c / kpm.h               # Keypad driver – initialization, scanning columns/rows, detecting key press, reading numeric and password inputs  
     |
     |-- adc.c / adc.h              # ADC module – initialization, reading analog values (LM35 temperature sensor), returning digital values
     |
