@@ -51,19 +51,15 @@ In addition, the project provides a **secure Admin Mode**, allowing authorized u
    - Allows time editing & message selection.  
 ---
 ## 📂 Project File Structure & Descriptions
-Event_Board_Mini_Project
+Project Files
 │
-├── Event_Board_Main.c          # Main control file: initializes system, runs main loop
-├── lcd.c / lcd.h               # LCD driver: initialization, command & data display
-├── kpm.c / kpm.h               # Keypad driver: scanning, key detection for Admin mode
-├── adc.c / adc.h               # ADC module: reads LM35 sensor, provides temperature values
-├── rtc.c / rtc.h               # RTC driver: time/date initialization, set & get functions
-├── settings.c / settings.h     # Settings handler: edit/update time, date, and events
-├── delay.c / delay.h           # Delay functions: ms/s delays, keypad debounce
-├── pin_connect_block.c / .h    # Pin configuration: maps MCU pins to peripherals
-├── defines.h                   # Macros & constants: pin mappings, LCD commands, LED control
-├── types.h                     # Custom data types: u8, u16, u32 definitions
-└── interrupts_defines.h        # Interrupt definitions: ISR macros, vector mappings
+├── main.c        # Contains initialization, main loop, RTC handling, LCD display, keypad input
+├── delay.c       # Delay-related functions (time delays, debounce handling)
+├── delay.h       # Header file for delay function declarations
+├── defines.h     # Macro definitions (constants, LCD commands, etc.)
+├── types.h       # Custom type definitions and structures
+├── interrupt.h   # Interrupt service routines and related definitions
+
 
 
 ---
