@@ -106,8 +106,10 @@ Admin Mode
     → Allows editing time/date and selecting messages  
 
 Delay & Interrupt Handling  
-    → Provides timing delays, keypad debounce, and ISR actions  
+    → Provides timing delays, keypad debounce, and ISR actions 
 
+    |__ Event_Board_Main.c  # Main program file – contains main() function, integrates LCD, keypad, RTC, ADC, and settings modules  
+    |__lcd.c / lcd.h        # LCD driver – initialization, sending commands/data, displaying characters, strings, integers on the LCD  
 
 
 
