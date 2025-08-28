@@ -50,6 +50,43 @@ In addition, the project provides a **secure Admin Mode**, allowing authorized u
    - Access protected by keypad password.  
    - Allows time editing & message selection.  
 ---
+## Project File Structure & Descriptions
+Event_Board_Main.c
+│   └── [Main program file – contains main() function, controls overall logic,
+│        integrates LCD, keypad, RTC, ADC, and settings modules]
+│
+├── lcd.c / lcd.h
+│   └── [LCD driver – initialization, sending commands/data, displaying characters,
+│        strings, integers on the LCD]
+│
+├── kpm.c / kpm.h (Keypad Module)
+│   └── [Keypad driver – initialization, scanning columns/rows, detecting key press,
+│        reading numeric and password inputs]
+│
+├── adc.c / adc.h
+│   └── [Analog-to-Digital Converter (ADC) module – initialization, reading values
+│        from sensors (like LM35 temperature sensor), returning digital values]
+│
+├── rtc.c / rtc.h (Real-Time Clock)
+│   └── [RTC module – initialization of clock, setting time/date, retrieving
+│        current time, and displaying it on the LCD]
+│
+├── settings.c / settings.h
+│   └── [Settings handler – allows user to edit and update time/date settings,
+│        manage stored values, and save changes made via keypad]
+│
+├── delay.c / delay.h
+│   └── [Delay utilities – provides software delay functions (in seconds/milliseconds)
+│        used for timing in LCD and keypad operations]
+│
+├── pin_connect_block.c / pin_connect_block.h
+│   └── [Pin configuration – configures microcontroller pins for LCD, keypad,
+│        ADC, and RTC connections]
+│
+└── defines.h / types.h / interrupts_defines.h
+    └── [Header files containing macros, data type definitions, and interrupt
+         vectors used across all modules]
+---
 ## 🎯 Applications  
 
 The EventBoard – RTC-Driven Message Display System can be applied in various real-world scenarios, including:  
