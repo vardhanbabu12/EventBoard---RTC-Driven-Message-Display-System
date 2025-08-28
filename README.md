@@ -54,13 +54,13 @@ In addition, the project provides a **secure Admin Mode**, allowing authorized u
 Event_Board_Mini_Project
 │
 
-├── Event_Board_Main.c          # Main control file: initializes system, runs main loop
+├── Event_Board_Main.c                # Main control file: initializes system, runs main loop
 
-├── lcd.c / lcd.h               # LCD driver: initialization, command & data display
+├── lcd.c / lcd.h                     # LCD driver: initialization, command & data display
 
-├── kpm.c / kpm.h               # Keypad driver: scanning, key detection for Admin mode
+├── kpm.c / kpm.h                     # Keypad driver: scanning, key detection for Admin mode
 
-├── adc.c / adc.h               # ADC module: reads LM35 sensor, provides temperature values
+├── adc.c / adc.h                     # ADC module: reads LM35 sensor, provides temperature values
 
 ├── rtc.c / rtc.h               # RTC driver: time/date initialization, set & get functions
 
