@@ -50,10 +50,6 @@ In addition, the project provides a **secure Admin Mode**, allowing authorized u
    - Access protected by keypad password.  
    - Allows time editing & message selection.  
 ---
-## Project File Structure & Descriptions
-
-# 🛠️ Event Board Mini Project
-
 ## 📂 Project File Structure & Descriptions
 
 - **Event_Board_Main.c**  
