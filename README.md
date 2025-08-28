@@ -118,9 +118,9 @@ Delay & Interrupt Handling
 
 ## 📂 Project File Structure
 
-|-- Event_Board_Main.c         # Main program file – contains main() function, integrates LCD, keypad, RTC, ADC, and settings modules  
+|-- Event_Board_Main.c# Main program file – contains main() function, integrates LCD, keypad, RTC, ADC, and settings modules  
 |  
-|-- lcd.c / lcd.h              # LCD driver – initialization, sending commands/data, displaying characters, strings, integers on the LCD  
+|-- lcd.c / lcd.h# LCD driver – initialization, sending commands/data, displaying characters, strings, integers on the LCD  
 |  
 |-- kpm.c / kpm.h              # Keypad driver – initialization, scanning columns/rows, detecting key press, reading numeric and password inputs  
 |  
